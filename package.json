@@ -1,0 +1,27 @@
+{
+  "name": "youtube_clone",
+  "version": "1.0.0",
+  "description": "Youtube Clone built using NodeJS, Express, Mongo and ES6",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juhyoungRyu/youtube_clone.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "Juhyoung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juhyoungRyu/youtube_clone/issues"
+  },
+  "homepage": "https://github.com/juhyoungRyu/youtube_clone#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
