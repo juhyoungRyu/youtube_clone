@@ -7,8 +7,10 @@
     "url": "git+https://github.com/juhyoungRyu/youtube_clone.git"
   },
   "scripts": {
-    "dev": "nodemon --exec npm run test",
-    "test" : "babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/server.js",
+    "test" : "babel-node src/server.js",
+    "dev2" : "nodemon --exec npm run test"
+
   },
   "author": "Juhyoung",
   "license": "MIT",
