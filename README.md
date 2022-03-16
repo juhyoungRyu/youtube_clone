@@ -9,12 +9,12 @@
 /search -> Search
 
 <h4>User Router</h4>
+/users/:id -> See User</br>
 /user/edit -> Edit Profile</br>
 /user/delete -> Delete Profile
 
 <h4>Video Router</h4>
-/videos/watch -> Watch Video</br>
-/videos/edit -> Edit Video</br>
-/videos/delete -> Delete Video</br>
-/videos/comment -> Comment on a video</br>
-/videos/comments/delete -> Delete A Comme t of a Video
+/videos/:id -> Watch Video</br>
+/videos/:id/edit -> Edit Video</br>
+/videos/:id/delete -> Delete Video</br>
+/videos/upload -> Upload Video
