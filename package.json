@@ -8,9 +8,8 @@
   },
   "scripts": {
     "dev": "nodemon --exec babel-node src/server.js",
-    "test" : "babel-node src/server.js",
-    "dev2" : "nodemon --exec npm run test"
-
+    "test": "babel-node src/server.js",
+    "dev2": "nodemon --exec npm run test"
   },
   "author": "Juhyoung",
   "license": "MIT",
@@ -20,7 +19,8 @@
   "homepage": "https://github.com/juhyoungRyu/youtube_clone#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.17.7",
