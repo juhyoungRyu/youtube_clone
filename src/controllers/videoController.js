@@ -1,9 +1,6 @@
 export const trending = (req, res) => res.render("home");
 
-export const see = (req, res) => {
-  console.log(`Connecting ID from : ${req.params.id}`);
-  return res.send(`Watch Video #${req.params.id}`);
-};
+export const see = (req, res) => res.render("watch");
 export const edit = (req, res) => res.send("Edit Vedio");
 
 export const search = (req, res) => res.send("Search");
