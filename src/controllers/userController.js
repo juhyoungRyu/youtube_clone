@@ -1,4 +1,5 @@
 export const getJoin = (req, res) => res.render("join", { pageTitle: "Join" });
+
 export const postJoin = (req, res) => {
   console.log(req.body);
   return res.redirect("/");
