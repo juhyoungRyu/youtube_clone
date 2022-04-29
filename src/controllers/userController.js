@@ -1,7 +1,22 @@
+import User from "../models/User";
+
 export const getJoin = (req, res) => res.render("join", { pageTitle: "Join" });
+<<<<<<< HEAD
+
 export const postJoin = (req, res) => {
+=======
+export const postJoin = async (req, res) => {
+>>>>>>> 8f4b001... 회원가입 구현
   console.log(req.body);
-  return res.redirect("/");
+  const { name, username, email, password, location } = req.body;
+  await User.create({
+    name,
+    username,
+    email,
+    password,
+    location,
+  });
+  return res.redirect("/login");
 };
 export const edit = (req, res) => res.send("Edit User");
 
