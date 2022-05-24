@@ -17,4 +17,4 @@
 /videos/:id -> Watch Video</br>
 /videos/:id/edit -> Edit Video</br>
 /videos/:id/delete -> Delete Video</br>
-/videos/upload -> Upload Video
+/videos/upload -> Upload Video.
